@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:linear-gradient(135deg, #ff5f6d, #ffc371);
+    text-align:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:100vh;
+    font-family: lato;
+}
+h2{
+    margin-top:3vh;
+    font-size:2rem;
+}
+h1{
+    font-size:3rem;
+}
+.container{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.game{
+    width:60vmin;
+    height:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:1.5vmin;
+}
+.btn{
+    width:18vmin;
+    height:18vmin;
+    border:none;
+    font-size:8vmin;
+    border-radius:1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    color:black;
+    background-color:#FFDAB9;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:#E6C4A5;
+}
+#newgame{
+    padding:1rem;
+    border:none;
+    background-color:black;
+    border-radius:1rem;
+    font-size:2vmin;
+    color:white;
+    cursor:pointer;
+    margin-right:5vmin;
+}
+#newgame:hover{
+    color:black;
+    background-color:white;
+    transform:scale(1.2);
+}
+#reset{
+    padding:1vh;
+    border:0.4vmin solid black;
+    background-color:transparent;
+    border-radius:2vmin;
+    font-size:3vmin;
+    color:black;
+    cursor:pointer;
+    margin-left:5vmin;
+    transition:transform 0.3s ease;
+    font-family:lato;
+}
+#reset:hover{
+    transform:scale(1.2);
+    box-shadow:0 4px 8px 4px rgba(0,0,0,0.5);
+}
+#msg{
+    font-size:5vmin;
+    margin-top:2vmin;
+}
